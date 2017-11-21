@@ -19,9 +19,6 @@ public class Sample {
         } else if(color instanceof Color.Custom) {
             System.out.println("カスタマイズされた色");
             System.out.println(((Color.Custom) color).getColorCode());
-        } else if(color instanceof ExtendedColor) {
-            System.out.println("やばいやつ");
-            System.out.println(((ExtendedColor) color).getColorCode());
         }
     }
 }
